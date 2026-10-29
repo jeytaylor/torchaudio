@@ -86,6 +86,11 @@ def get_ext_modules():
         "utils.cpp",
         "lfilter.cpp",
         "overdrive.cpp",
+        "fused_mulaw.cpp",
+        "fused_cmn.cpp",
+        "fused_pitch.cpp",
+        "fused_amp_db.cpp",
+        "fused_resample.cpp",
     ]
 
     if _USE_CUDA:
